@@ -6,7 +6,7 @@
 /*   By: amorvai <amorvai@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/24 14:47:09 by amorvai           #+#    #+#             */
-/*   Updated: 2023/02/23 14:55:50 by amorvai          ###   ########.fr       */
+/*   Updated: 2023/02/28 18:34:15 by amorvai          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 #  define BUFFER_SIZE 1
 # endif
 
-char	*get_next_line(int fd);
+int		get_next_line(int fd, char **newline);
 
 ssize_t	ft_strlen_mod(const char *s, int c);
 char	*append_readline(char *buffer, char *readline);

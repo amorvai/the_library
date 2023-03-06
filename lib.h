@@ -6,7 +6,7 @@
 /*   By: amorvai <amorvai@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/20 23:57:02 by amorvai           #+#    #+#             */
-/*   Updated: 2023/02/23 14:57:41 by amorvai          ###   ########.fr       */
+/*   Updated: 2023/03/06 13:00:58 by amorvai          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,6 @@
 # include "libft/libft.h"
 
 int		ft_printf(const char *s, ...);
-char	*get_next_line(int fd);
+int		get_next_line(int fd, char **newline);
 
 #endif
